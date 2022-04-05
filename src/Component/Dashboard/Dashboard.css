@@ -1,0 +1,15 @@
+.dashboard{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+    padding-top: 100px;
+}
+.dashboard div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.dashboard div h1{
+    margin-bottom: 30px;
+}

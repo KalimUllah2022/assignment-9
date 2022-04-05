@@ -1,0 +1,43 @@
+.header{
+    height: 90vh;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+  
+}
+.header-content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header-content h1{
+    font-size: 50px; 
+
+}
+.header-content h2{
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 40px;
+    font-weight: 400;
+    color: rgb(82, 82, 82);
+}
+.header-btn{
+    border: none;
+    background: rgb(179, 242, 247);
+    padding: 15px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 40px;
+    width: 150px;
+}
+
+.header .image{
+    position: relative;
+    width: 100%;
+}
+.image img{
+    position: absolute;
+    top: 10%;
+    right: 0%;
+    width: 100%;
+}
